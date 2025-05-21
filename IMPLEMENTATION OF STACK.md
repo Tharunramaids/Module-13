@@ -27,5 +27,35 @@ To write a Python program to implement a stack using a list and its built-in met
 ### PROGRAM
 
 ```
-
+stack = []
+class st:
+    def push(self,S):
+        for i in S:
+            stack.append(i)
+        return
+    def pop(self):
+        if stack:
+            print("Element popped : ",stack.pop())
+        else:
+            print("stack is empty")
+        return
+    def peek(self):
+        if stack:
+            print("Elements in the stack\n",stack)
+        return
+    
+s=st()
+size=int(input())
+l=[i for i in range(1,size) if i%2!=0]
+s.push(l)
+s.peek()
+s.pop()
+s.peek()
 ```
+## OUTPUT :
+
+![image](https://github.com/user-attachments/assets/8d130b29-ec86-4cf4-a563-10aca141a22b)
+
+## RESULT : 
+
+Thus the implemention of a Stack using Python lists and built-in methods append() and pop() is successfully verified.
