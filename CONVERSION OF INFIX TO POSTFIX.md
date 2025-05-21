@@ -68,4 +68,4 @@ print("postfix notation: ",infixToPostfix(expression))
 
 
 ### RESULT
-suceesful
+Thus, Evaluation of postfix expression using a stack by pushing operands and applying operators in order proved successfully.
